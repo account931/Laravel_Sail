@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
     //return DB::connection()->getDatabaseName();
-    //return 'running OK';
-    return User::count();
+    return 'running OK, edit in routes/web.php to see full page';
+    //return User::count();
     //return view('welcome');
 });
 
